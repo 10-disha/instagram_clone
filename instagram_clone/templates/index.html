@@ -11,8 +11,8 @@
 {% for story in stories %}
   <div style="padding-right: 9px;">
     <a name="{{ story.id }}" class="showModal">
-    <figure class="image is-128x128">
-      <img class="is-rounded" src="{{ story.following.profile.picture.url }}">
+    <figure class="image is-228x228">
+      <img class="is-rounded" src="{{ story.following.profile.content.url }}">
     </figure>
     <div class="media-content has-text-centered">
       <p class="title is-6">@{{ story.following.username }}</p> 

@@ -12,32 +12,34 @@ from datetime import datetime, timedelta
 
 @login_required
 def NewStory(request):
-	user = request.user
-	file_objs = []
+    user = request.user
+    file_objs = []
 
-	if request.method == "POST":
-		form = NewStoryForm(request.POST, request.FILES)
-		if form.is_valid():
-			file = request.FILES.get('content')
-			caption = form.cleaned_data.get('caption')
+    if request.method == "POST":
+        form = NewStoryForm(request.POST, request.FILES)
+        if form.is_valid():
+            file = request.FILES.get('content')
+            caption = form.cleaned_data.get('caption')
 
-			story = Story(user=user, content=file, caption=caption)
-			story.save()
-			return redirect('index')
-	else:
-		form = NewStoryForm()
+            story = Story(user=user, content=file, caption=caption)
+            story.save()
+            return redirect('index')
+    else:
+        form = NewStoryForm()
 
-	context = {
-		'form': form,
-	}
+    context = {
+        'form': form,
+    }
 
-	return render(request, 'newstory.html', context)
+    print(Story.content)
+
+    return render(request, 'newstory.html', context)
 
 
 def ShowMedia(request, stream_id):
-	stories = StoryStream.objects.get(id=stream_id)
-	media_st = stories.story.all().values()
+    stories = StoryStream.objects.get(id=stream_id)
+    media_st = stories.story.all().values()
 
-	stories_list = list(media_st)
+    stories_list = list(media_st)
 
-	return JsonResponse(stories_list, safe=False)
+    return JsonResponse(stories_list, safe=False)
