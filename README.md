@@ -1,51 +1,14 @@
-# Instagram clone in Django
+# instagram_clone
 
-Basic Instagram clone website built in django web framework using Python. 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-## Getting Started
+## Programming languages
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
--Install the prerequisites
--Run the server
-
-admin:
-demo
-password:
-demo1234
-
-### Prerequisites
-
-You can install the Prerequisites by running the command: 
-
-```
-pip install -r requirements.txt
-```
-
-```
-asgiref==3.2.10
-Django==3.0.7
-Pillow==7.1.2
-pkg-resources==0.0.0
-pytz==2020.1
-sqlparse==0.3.1
-celery==5.0.0
-django-celery-beat==2.0.0
-```
-
-## Screenshots
-
-![Screen](screenshots/screen1.png?raw=true)
-![Screen](screenshots/screen2.png?raw=true)
-![Screen](screenshots/screen3.png?raw=true)
-![Screen](screenshots/screen4.png?raw=true)
-![Screen](screenshots/screen5.png?raw=true)
-![Screen](screenshots/screen6.png?raw=true)
-![Screen](screenshots/screen7.png?raw=true)
-![Screen](screenshots/screen8.png?raw=true)
-
-
-
-
-## Built With
-
-* [Bulma](https://bulma.io/) - Bulma is a free, open source CSS framework based on Flexbox
-* [Django](https://www.djangoproject.com/) - Web framework
+## Pull Requests
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat)]()
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
