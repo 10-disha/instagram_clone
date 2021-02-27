@@ -23,7 +23,7 @@
 - Once you clone the project you will get requirement.txt file in which all the requirement ok python pachages are mentioned you can install those packages by command
 
 ```
-pip -m install requirement.txt
+pip install -r requirements.txt
 ```
 OR
 
