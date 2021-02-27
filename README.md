@@ -1,4 +1,4 @@
-# instagram_clone
+# Instagram_clone
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
@@ -38,7 +38,7 @@ pip install celery==5.0.0
 pip install django-celery-beat==2.0.0
 ```
 
-## steps
+## Steps
 
 - Step 1 - go in directory where manage.py file is present and run command given bellow
 ```
