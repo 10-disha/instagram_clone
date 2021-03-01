@@ -60,7 +60,8 @@
         <!-- login form error message -->
         {% if form.errors %}
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
-          <strong>Error!</strong> Your username or password did not match.
+          <strong>Error!</strong> Your username or password did not match. <br>
+          <a href="{% url 'password_reset' %}" class="btn btn-warning" >Forget password</a>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         {% endif %}
